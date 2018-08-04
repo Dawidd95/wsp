@@ -1,0 +1,71 @@
+@import url("../css/main.css");
+@import url("main.css");
+h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Kaushan Script";
+  color: #10c1af; }
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+  font-family: "Raleway"; }
+
+span a {
+  color: #10c1af;
+  font-family: "Kaushan Script"; }
+  span a:hover {
+    text-decoration: underline; }
+
+.page-head {
+  width: 100%;
+  height: 300px; }
+
+.navbar__links a {
+  color: white; }
+.navbar__links:hover {
+  color: #10c1af; }
+
+.container__group {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.group__description {
+  width: 80%;
+  height: 100%;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: "Lato"; }
+  @media screen and (max-width: 500px) {
+    .group__description {
+      width: 90%; } }
+
+.description__quotes {
+  font-style: italic;
+  color: #10c1af; }
+
+.description__video {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 40px; }
+  @media screen and (max-width: 600px) {
+    .description__video {
+      height: 300px; } }
+
+.content__logo {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (max-width: 500px) {
+    .content__logo {
+      width: 100%; } }
+
+/*# sourceMappingURL=kurs-alfa.css.map */
